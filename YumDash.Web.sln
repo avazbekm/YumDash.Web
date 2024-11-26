@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{00EAE3B1-CBFF-4650-89A9-2A2AB2A3FC41}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "backend", "backend", "{626D3A31-14A3-426E-9B09-EEA9A9A5161B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "frontend", "frontend", "{C81CABFA-7C8D-4F68-AFD5-724785286B8C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YumDash.Web", "src\backend\YumDash.Web\YumDash.Web.csproj", "{2FE60C9C-4F27-4327-A176-94B4F4DD3C8D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YumDash.Domain", "src\backend\YumDash.Core\YumDash.Domain.csproj", "{216F61D4-B9B1-43B0-8E69-204B4C1BEC1C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YumDash.Application", "src\backend\YumDash.Application\YumDash.Application.csproj", "{264F879A-4218-46DD-B47C-540FED2CD76A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YumDash.Infrastructure", "src\backend\YumDash.Infrastructure\YumDash.Infrastructure.csproj", "{4A6916B7-9386-48D8-AAD2-10E33928A341}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2FE60C9C-4F27-4327-A176-94B4F4DD3C8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FE60C9C-4F27-4327-A176-94B4F4DD3C8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FE60C9C-4F27-4327-A176-94B4F4DD3C8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FE60C9C-4F27-4327-A176-94B4F4DD3C8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{216F61D4-B9B1-43B0-8E69-204B4C1BEC1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{216F61D4-B9B1-43B0-8E69-204B4C1BEC1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{216F61D4-B9B1-43B0-8E69-204B4C1BEC1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{216F61D4-B9B1-43B0-8E69-204B4C1BEC1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{264F879A-4218-46DD-B47C-540FED2CD76A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{264F879A-4218-46DD-B47C-540FED2CD76A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{264F879A-4218-46DD-B47C-540FED2CD76A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{264F879A-4218-46DD-B47C-540FED2CD76A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A6916B7-9386-48D8-AAD2-10E33928A341}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A6916B7-9386-48D8-AAD2-10E33928A341}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A6916B7-9386-48D8-AAD2-10E33928A341}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A6916B7-9386-48D8-AAD2-10E33928A341}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{626D3A31-14A3-426E-9B09-EEA9A9A5161B} = {00EAE3B1-CBFF-4650-89A9-2A2AB2A3FC41}
+		{C81CABFA-7C8D-4F68-AFD5-724785286B8C} = {00EAE3B1-CBFF-4650-89A9-2A2AB2A3FC41}
+		{2FE60C9C-4F27-4327-A176-94B4F4DD3C8D} = {626D3A31-14A3-426E-9B09-EEA9A9A5161B}
+		{216F61D4-B9B1-43B0-8E69-204B4C1BEC1C} = {626D3A31-14A3-426E-9B09-EEA9A9A5161B}
+		{264F879A-4218-46DD-B47C-540FED2CD76A} = {626D3A31-14A3-426E-9B09-EEA9A9A5161B}
+		{4A6916B7-9386-48D8-AAD2-10E33928A341} = {626D3A31-14A3-426E-9B09-EEA9A9A5161B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {64A0B2AC-2357-43B9-AF59-7C4A9D20214F}
+	EndGlobalSection
+EndGlobal

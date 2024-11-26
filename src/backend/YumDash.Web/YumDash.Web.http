@@ -1,0 +1,6 @@
+@YumDash.Web_HostAddress = http://localhost:5148
+
+GET {{YumDash.Web_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
